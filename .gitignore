@@ -1,0 +1,6 @@
+assets/
+lib/
+.vs/
+Debug/
+Release/
+bin/
