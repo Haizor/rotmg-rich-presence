@@ -1,5 +1,6 @@
-assets/
-lib/
+Assets/
+Libs/
+Builds/
 .vs/
 Debug/
 Release/

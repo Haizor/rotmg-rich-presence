@@ -18,7 +18,7 @@ namespace RotMGRichPresence {
         public const string
             GUID = "net.haizor.rotmg-rich-presence",
             NAME = "RotMG Rich Presence",
-            VERSION = "0.5";
+            VERSION = "v1.0.0";
 
         public static ManualLogSource log;
         public static ConfigEntry<bool> configShowServer;
@@ -27,7 +27,7 @@ namespace RotMGRichPresence {
         }
         
         public override void Load() {
-            configShowServer = Config.Bind("General", "Show Server", false, "Show the server you are in?");
+            configShowServer = Config.Bind("General", "Show Server", true, "Show the server you are in?");
 
             ClassInjector.RegisterTypeInIl2Cpp<Bootstrapper>();
             ClassInjector.RegisterTypeInIl2Cpp<DataGrabber>();
