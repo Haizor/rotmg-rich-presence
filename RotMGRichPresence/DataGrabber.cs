@@ -107,13 +107,15 @@ namespace RotMGRichPresence {
 
                 if (characterInfo != null) {
                     accountName = characterInfo.accountName.GetParsedText();
-                    location = characterInfo.OHLHEKBJMOO.HGBGBADONHP;
+                    location = characterInfo.DPFDOFNIJHM.GMJGBNCMJDG;
+                    
                     if (location == "Realm of the Mad God") {
                         location = realmName;
                     }
                     try {
-                        className = characterInfo.characterIconLoader.NCEPPPOAADJ.NJLANKIJPDK.NCADAPAJGCH;
-                    } catch {}                   
+                        className = characterInfo.characterIconLoader.CDPFBLIIEMA.FHEEIFDDCME.ANELECFAPHF;
+                    }
+                    catch { }
                 }
 
                 if (appManager == null) {
@@ -121,10 +123,11 @@ namespace RotMGRichPresence {
                 }
 
                 if (appManager != null) {
-                    var serverManager = appManager.DJKOOMHEFBD;
+                    var serverManager = appManager.CHMPDHDJEOA;
 
-                    if (serverManager != null) {
-                        server = serverManager.HKMKDDACNLO().NCADAPAJGCH;
+                    if (serverManager != null)
+                    {
+                        server = serverManager.JLLDPBAANCK().ANELECFAPHF;
                     }
                 }
 
